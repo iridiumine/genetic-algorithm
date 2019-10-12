@@ -8,7 +8,7 @@
 #define HSIZE 10 //每一代个体数量
 #define MAXGEN 200 //种群繁殖次数
 #define SLEN 200 //染色体数目
-#define P_MUTATION 0.02 //基因突变概率
+#define P_MUTATION 1.0/SLEN //基因突变概率
 
 typedef struct {
     int x[SLEN]; //x:解的自变量，0-1串
