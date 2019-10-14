@@ -6,7 +6,7 @@
 
 #define SIZE 20 //种群大小
 #define HSIZE 10 //每一代个体数量
-#define MAXGEN 200 //种群繁殖次数
+#define MAXGEN 175 //种群繁殖次数
 #define SLEN 200 //染色体数目
 #define P_MUTATION 1.0/SLEN //基因突变概率
 
